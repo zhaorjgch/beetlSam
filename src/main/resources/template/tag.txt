@@ -1,0 +1,5 @@
+计算如下:
+<%
+var c = 3;
+%>
+<#component a="${input}" b="${c}" tip="结果是"/>

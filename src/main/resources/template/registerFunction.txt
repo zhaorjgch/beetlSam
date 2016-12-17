@@ -1,0 +1,4 @@
+<%
+var a = myTest();
+%>
+${a,myFormat}

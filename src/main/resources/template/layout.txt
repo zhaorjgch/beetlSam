@@ -1,0 +1,4 @@
+<%
+include("/layout.child.txt"){}
+%>
+Hello!

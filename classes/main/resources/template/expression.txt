@@ -1,0 +1,20 @@
+<%
+var a = 1,b=a+1;
+var array=["a","b","c"];
+
+for(item in array){
+%>
+data is ${item}
+<%}%>
+
+<%
+
+if(!has(flag)){
+%>
+ hhaha
+<%}%>
+
+<% var date = date(); %>
+Today is ${date,dateFormat="yyyy-MM-dd"}.
+Today is ${date,dateFormat}
+salary is ${122121.444,numberFormat="##.##"}
